@@ -1,17 +1,150 @@
-<nav class="navbar">
-    <div class="logo">روضة الأرواح</div>
-    <ul class="nav-links">
-        <li><a href="index.html">الرئيسية</a></li>
-        <li><a href="poems.html">الديوان</a></li>
-        <li><a href="scholars.html">الأعلام</a></li>
-        <li><a href="library.html">المكتبة</a></li>
-        <li><a href="adhkar.html">الأذكار</a></li>
-        <li><a href="gallery.html">المعرض</a></li>
-    </ul>
-</nav>
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>التصوف - موقع معرفي شامل</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-leaf"></i>
+                <span>التصوف</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link active">الرئيسية</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link">عن التصوف</a></li>
+                <li class="nav-item"><a href="poets.html" class="nav-link">الشعراء</a></li>
+                <li class="nav-item"><a href="poems.html" class="nav-link">الأشعار</a></li>
+                <li class="nav-item"><a href="dhikr.html" class="nav-link">الأذكار</a></li>
+                <li class="nav-item"><a href="scholars.html" class="nav-link">العلماء</a></li>
+                <li class="nav-item"><a href="stories.html" class="nav-link">القصص</a></li>
+                <li class="nav-item"><a href="wisdom.html" class="nav-link">الحكم</a></li>
+                <li class="nav-item"><a href="books.html" class="nav-link">الكتب</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link">التواصل</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
 
-<section class="stats-bar">
-    <div class="stat-item"><span>+500</span> قصيدة</div>
-    <div class="stat-item"><span>+100</span> عالم</div>
-    <div class="stat-item"><span>+200</span> ورد مستند</div>
-</section>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>رحلتك نحو التصوف والروحانية</h1>
+            <p>موقع معرفي شامل يجمع بين العلم والحكمة والتأمل</p>
+            <button class="cta-btn">ابدأ الآن</button>
+        </div>
+        <div class="hero-background"></div>
+    </section>
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- Featured Section -->
+        <section class="featured">
+            <h2>القسم المميز</h2>
+            <div class="featured-grid">
+                <div class="featured-card">
+                    <div class="card-icon">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <h3>الأشعار الصوفية</h3>
+                    <p>مجموعة منتقاة من أجمل الأشعار الصوفية</p>
+                    <a href="poems.html" class="card-link">اقرأ المزيد</a>
+                </div>
+                <div class="featured-card">
+                    <div class="card-icon">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <h3>العلماء الكبار</h3>
+                    <p>تعرف على سيرة أعظم العلماء الصوفيين</p>
+                    <a href="scholars.html" class="card-link">اقرأ المزيد</a>
+                </div>
+                <div class="featured-card">
+                    <div class="card-icon">
+                        <i class="fas fa-hands-praying"></i>
+                    </div>
+                    <h3>الأذكار المأثورة</h3>
+                    <p>أذكار يومية وأوراد روحانية مختارة</p>
+                    <a href="dhikr.html" class="card-link">اقرأ المزيد</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Latest Posts -->
+        <section class="latest">
+            <h2>آخر المقالات</h2>
+            <div class="posts-grid">
+                <article class="post-card">
+                    <div class="post-header">
+                        <span class="post-category">أشعار</span>
+                    </div>
+                    <h3>في طلب الحقيقة</h3>
+                    <p>مقالة عن رحلة الإنسان في البحث عن الحقيقة والمعنى الحقيقي للحياة...</p>
+                    <div class="post-meta">
+                        <span>21 يناير 2026</span>
+                    </div>
+                </article>
+                <article class="post-card">
+                    <div class="post-header">
+                        <span class="post-category">حكمة</span>
+                    </div>
+                    <h3>الصبر في الروحانية</h3>
+                    <p>الصبر هو مفتاح السعادة والطمأنينة الروحية في حياتنا اليومية...</p>
+                    <div class="post-meta">
+                        <span>20 يناير 2026</span>
+                    </div>
+                </article>
+                <article class="post-card">
+                    <div class="post-header">
+                        <span class="post-category">قصص</span>
+                    </div>
+                    <h3>قصة عالم جليل</h3>
+                    <p>قصة مؤثرة عن أحد العلماء الصوفيين وتفانيه في طلب العلم...</p>
+                    <div class="post-meta">
+                        <span>19 يناير 2026</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>عن الموقع</h4>
+                <p>موقع معرفي متخصص في نشر علوم التصوف والحكمة الروحانية</p>
+            </div>
+            <div class="footer-section">
+                <h4>الروابط السريعة</h4>
+                <ul>
+                    <li><a href="about.html">عن التصوف</a></li>
+                    <li><a href="poems.html">الأشعار</a></li>
+                    <li><a href="scholars.html">العلماء</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>تابعنا</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 موقع التصوف. جميع الحقوق محفوظة.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
